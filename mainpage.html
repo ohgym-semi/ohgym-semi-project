@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OhGYM - HOME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./mainpage.css" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- CSS only -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+        crossorigin="anonymous"
+      />
+      <!-- JavaScript Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"
+      ></script>
   </head>
   <body>
     <div class="header">
@@ -52,87 +55,27 @@
       firebase.initializeApp(firebaseConfig);
     </script>
     <!-- bootstrap 네비게이션바 시작 -->
-    <div class="nav-start">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <!-- HOME 시작 -->
-              <li class="nav-item m-5">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <!-- HOME 끝 -->
-              <!-- 센터소개 시작 -->
-              <li class="nav-item dropdown m-5">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 센터소개 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">센터소개</a></li>
-                </ul>
-              </li>
-              <!-- 센터소개 끝 -->
-              <!-- 트레이너소개 시작 -->
-              <li class="nav-item dropdown m-5">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 트레이너소개 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">강사프로필</a></li>
-                  <li><a class="dropdown-item" href="#">수업시간표</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">강사지원</a></li>
-                </ul>
-              </li>
-              <!-- 트레이너소개 끝 -->
-              <!-- 프로그램안내 시작 -->
-              <li class="nav-item dropdown m-5">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 프로그램안내 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">PT</a></li>
-                  <li><a class="dropdown-item" href="#">필라테스</a></li>
-                  <li><a class="dropdown-item" href="#">스피닝</a></li>
-                  <li><a class="dropdown-item" href="#">스크린 골프</a></li>
-                </ul>
-              </li>
-              <!-- 프로그램안내 끝 -->
-              <!-- 프로그램예약 시작 -->
-              <li class="nav-item dropdown m-5">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 프로그램예약 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">강사프로필</a></li>
-                  <li><a class="dropdown-item" href="#">수업시간표</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">강사 문의</a></li>
-                </ul>
-              </li>
-              <!-- 프로그램예약 끝 -->
-              <!-- 커뮤니티 시작 -->
-              <li class="nav-item dropdown m-5">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 커뮤니티 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">공지사항</a></li>
-                  <li><a class="dropdown-item" href="#">자주 묻는 질문</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">카카오톡 1:1상담</a></li>
-                </ul>
-              </li>
-              <!-- 커뮤니티 끝 -->
-              <!-- <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+      <div class="container">
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+          <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+            <!-- <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#"><i class="fa fa-apple apple-logo"></i></a>
             </li> -->
-            </ul>
-          </div>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#">홈</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#">센터소개</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#">트레이너소개</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#">프로그램안내</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#">프로그램예약</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#">커뮤니티</a></li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+  </div>
     <!-- bootstrap 네비게이션바 끝 -->
 
     <!-- 각 카테고리의 콘텐츠를 담아야합니다. 여기에 코딩해주세요 !!!!! -->
@@ -209,4 +152,3 @@
     </footer>
   </body>
 </html>
-<!-- 안녕 -->
