@@ -1,111 +1,305 @@
-* {
-    border: 1px solid red;
-}
+/* * {
+    border: 1px solid rgb(100, 76, 98);
+} */
 
 .header {
-    padding-top: 5px;
-    font-size: 20px;
+  padding-top: 5px;
+  font-size: 20px;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav.top-bar {
-    color: white;
-    font-size: 15px;
-    list-style: none;
-    padding-left: 20px;
+  color: white;
+  font-size: 15px;
+  list-style: none;
+  padding-left: 20px;
 }
 
 h1 {
-    margin: 20px;
-    text-align: center;
-    font-size: 90px;
+  margin: 20px;
+  text-align: center;
+  font-size: 90px;
 }
 
 .category {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .menu {
-    /* display: flex; */
-    background-color: rgb(243, 243, 243);
-    list-style: none;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  /* display: flex; */
+  background-color: rgb(243, 243, 243);
+  list-style: none;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .menu li {
-    font-size: 20px;
-    color: black;
-    display: inline-block;
-    text-align: center;
-    justify-content: space-around;
-    margin-left: 25px;
-    margin-right: 25px;
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 div.contents {
-    background-color: aliceblue;
-    width: 100%;
-    height: 600;
+  background-color: aliceblue;
+  width: 100%;
+  height: 600;
 }
 
 .home {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
 }
 
 .bottom-box {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bottom-box > .community {
-    width: 350px;
-    height: 350px;
-    margin-right: 19px;
-    border-radius: 20px 20px 20px 20px;
-    background-color: rgb(243, 243, 243);
+  width: 350px;
+  height: 350px;
+  margin-right: 19px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
 }
 
 .bottom-box > .map {
-    width: 350px;
-    height: 350px; 
-    margin-right: 18px;
-    border-radius: 20px 20px 20px 20px;
-    background-color: rgb(243, 243, 243);
+  width: 350px;
+  height: 350px; 
+  margin-right: 18px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
 }
 
 .bottom-box > .time {
-    width: 350px;
-    height: 350px;
-    border-radius: 20px 20px 20px 20px;
-    background-color: rgb(243, 243, 243);
+  width: 350px;
+  height: 350px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
 }
 
 header {
-    height: 40px;
-    background-color: black;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    border-radius: 20px 20px 0 0;
+  height: 40px;
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 20px 20px 0 0;
 }
 
 footer.info {
-    margin-top: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* margin-top: 20px; */
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: larger;
 }
 
 div.contents-box {
-    /* 여기에 각 카테고리별로 css 적용하지면 됩니다.*/
+  /* 여기에 각 카테고리별로 css 적용하지면 됩니다.*/
+  padding:20px 50px 150px 50px;
+  text-align: center;
+  
 }
+
+.mini-nav{
+  margin-top: 50px;
+  margin-bottom: 140px;
+  padding:20px 0px 20px 10px;
+  display: flex;
+  width: 100%;
+  float: left;
+}
+
+.mini-nav label{
+  font-size: smaller;
+  color: grey;
+  width:130px;
+  /* height:40px; */
+  border: solid 1px rgb(170, 170, 170);
+  border-radius: 10%;
+}
+
+#btn-input {
+  width: fit-content;
+  height: fit-content;
+}
+
+#btn-write{
+background-color: rgb(109, 109, 242);
+color: white;
+font-size:large;
+border-radius: 5%;
+}
+
+.table{
+  border-collapse: collapse;
+  border-top: 3px solid #168;
+}
+
+.table th {
+  color: #168;
+  background: #f0f6f9;
+  text-align: center;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.table th:first-child, .table td:first-child {
+  border-left: 0;
+}
+
+.table th:last-child, .table td:last-child {
+  border-right: 0;
+}
+
+.table tr td:first-child{
+  text-align: center;
+}
+
+.table caption{
+  caption-side: bottom; display: none;
+}
+
+.right {
+  float: right;
+}
+
+/* .search-form{
+  margin-bottom: 10px;
+  float: right;
+} */
+
+.search-form label{
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  font-size: large;
+  color: white;
+}
+
+.d-write{
+  margin-bottom: 10px;
+  float: left;
+}
+
+.notice-list{
+  text-align: center;
+}
+
+.pager{
+  display: inline-block;
+}
+
+/* consult.html 스타일 시작! */
+#intro-section div.outline{
+  /* 상 우 하 좌 */
+  padding:45px 240px 30px 180px;
+  width: 100%;
+  float: left;
+}
+
+#intro-section p{
+  margin:0px 400px 0px 200px;
+  text-align: left;
+  font-style: oblique;
+  color: gray;
+  font-size: larger;
+}
+
+#intro-section hr{
+  border: dotted 3px;
+  color: rgb(45, 45, 45);
+}
+
+/* .contents-box#q-a {
+  background-color: pink;
+} */
+
+#kakao-talk-channel-add-button{
+  text-align: right;
+}
+
+#q-a {
+  padding-bottom: 500px;
+}
+
+#q-a img{
+  /* padding: 10px 30px 10px 30px; */
+  /* display:inline-flex; */
+  display:block;
+  margin:0px auto;
+  width: 800px;
+  height: 400px;
+  background-color: pink;
+}
+
+#input-title{
+  width:900px;
+  height:40px;
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+
+#input-contents{
+  width:900px;
+  height:450px;
+  margin-bottom: 30px;
+}
+
+#btn-submit{
+  background-color: rgb(255, 183, 0);
+  width: 30;
+  height: 27;
+  color:white;
+  font-size:x-large;
+  border-radius: 5%;
+  margin: 5px 10px 10px 5px;
+}
+
+#btn-cancel{
+  background-color: rgb(255, 183, 0);
+  width: 30;
+  height: 27;
+  color:white;
+  font-size:x-large;
+  border-radius: 5%;
+  margin: 5px 10px 10px 5px;
+}
+
+ul{
+  text-align: left;
+}
+
+ul h2{
+  color: darkgrey;
+  display: inline-block;
+}
+
+main{
+  text-align: center;
+}
+
+main.input-form {
+  
+  display: inline-block;
+  width:max-content;
+}
+
