@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./mainpage.css" />
+    <link rel="stylesheet" href="./home.css" />
         <!-- CSS only -->
         <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -62,15 +62,47 @@
         </button>
         <div class="collapse navbar-collapse" id="navcol-1">
           <ul class="nav navbar-nav flex-grow-1 justify-content-between">
-            <!-- <li class="nav-item" role="presentation">
-              <a class="nav-link" href="#"><i class="fa fa-apple apple-logo"></i></a>
-            </li> -->
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#">홈</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#">센터소개</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#">트레이너소개</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#">프로그램안내</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#">프로그램예약</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="#">커뮤니티</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="./home.html">홈</a></li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 센터소개 </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./center1.html">시설소개</a></li>
+                  <li><a class="dropdown-item" href="./center2.html">기구소개</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="./cetercome.html">오시는길</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./teacher.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 트레이너소개 </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./teacher.html">강사소개</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 프로그램안내 </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">강사프로필</a></li>
+                  <li><a class="dropdown-item" href="#">수업시간표</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">강사지원</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 프로그램예약 </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">강사프로필</a></li>
+                  <li><a class="dropdown-item" href="#">수업시간표</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">강사지원</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">커뮤니티</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">공지사항</a></li>
+                </ul>
+              </li>
           </ul>
         </div>
       </div>
@@ -96,7 +128,7 @@
       </div>
       <!-- box1 끝 -->
       <!-- box2 시작 -->
-      <div class="box2">
+      <div class="kakaomap">
         <div id="map" style="width: 420px; height: 230px"></div>
         <script src="http://dapi.kakao.com/v2/maps/sdk.js?appkey=21af3de848f44d872f10ddf66ca283da"></script>
       </div>
@@ -125,7 +157,7 @@
       </script>
       <!-- box2 끝 -->
       <!-- box3 시작 -->
-      <div class="box3"><img src="./cs_ban01.jpg" alt=""></div>
+      <div class="box3"><img src="../img/cs_ban01.jpg" alt=""></div>
     </div>
   <!-- box3 끝 -->
     <!-- 각 카테고리의 콘텐츠를 담아야합니다. 여기에 코딩해주세요 !!!!! -->

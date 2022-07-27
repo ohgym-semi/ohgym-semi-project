@@ -1,6 +1,6 @@
 * {
   /* border: 1px solid red; */
-  font-family: 돋움체;
+  /* font-family: 돋움체; */
 }
 /* 상단 시작 */
 .header {
@@ -132,7 +132,7 @@ footer.info {
   margin-bottom: auto;
   /* margin-right: auto;
   margin-left: auto; */
-  background: url("./back.jpg");
+  background: url("../img/back.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }

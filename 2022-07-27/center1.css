@@ -1,0 +1,336 @@
+* {
+  /* border: solid 1px red; */
+}
+
+/* 상단 시작 */
+.header {
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav.top-bar {
+  color: white;
+  font-size: 15px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.logo h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 110px;
+}
+
+.category {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu {
+  /* display: flex; */
+  background-color: rgb(243, 243, 243);
+  list-style: none;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-start {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  font-size: 20px;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+div.contents {
+  background-color: aliceblue;
+  width: 100%;
+  height: 600;
+}
+
+.home {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.bottom-box {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom-box > .community {
+  width: 350px;
+  height: 350px;
+  margin-right: 19px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
+}
+
+.bottom-box > .map {
+  width: 350px;
+  height: 350px;
+  margin-right: 18px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
+}
+
+.bottom-box > .time {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(243, 243, 243);
+}
+
+header {
+  height: 40px;
+  background-color: black;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 20px 20px 0 0;
+}
+
+/* 상단 끝 */
+
+/* 하단 시작 */
+footer.info {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/* 하단 끝 */
+
+/* contents-box 시작 */
+/* 배너 시작 */
+.intro_banu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.intro_banu > img {
+  width: 80%;
+}
+
+/* 배너 끝 */
+
+/* 시설보기 시작 */
+.small_box1_name {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.small_box1_name > div {
+  background-color: rgb(45, 45, 87);
+}
+
+.small_box1_name > div > h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.small_box1_main {
+  width: auto;
+}
+
+.small_box1_main > div {
+  text-align: center;
+}
+
+.small_box1_main1 {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.small_box1_main_1 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.small_box1_main_2 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.small_box1_main_3 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box1_main2 {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.small_box1_main_4 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box1_main_5 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box1_main_6 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+/* 시설보기 끝 */
+
+/* 기구소개 시작 */
+.small_box2_name {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.small_box2_name > div {
+  background-color: rgb(45, 45, 87);
+}
+
+.small_box2_name > div > h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.small_box2_main_all {
+  text-align: center;
+}
+
+.small_box2_main1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.small_box2_main_1 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box2_main_2 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box2_main_3 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box2_main_4 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box2_main2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.small_box2_main_5 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box2_main_6 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box2_main_7 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.small_box2_main_8 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* 기구소개 끝 */
+
+/* 오시는길 시작 */
+.small_box3 {
+}
+
+.small_box3_name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.small_box3_main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.small_box3_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 500px;
+  height: 500px;
+}
+
+/* 오시는길 끝 */
+
+/* contents-box 끝 */
+@media all and (min-width: 320px) {
+  #wrap div {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) {
+  #wrap div {
+    width: 50%;
+  }
+  #wrap div:nth-child(5) {
+    width: 100%;
+  }
+}
+@media all and (min-width: 1024px) {
+  #wrap div {
+    width: 20%;
+  }
+  #wrap div:nth-child(5) {
+    width: 20%;
+  }
+}
