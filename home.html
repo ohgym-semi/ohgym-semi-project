@@ -1,55 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OhGYM - HOME</title>
-    <link rel="stylesheet" href="./home.css">
-</head>
-<body>
-    <div class="header">
-        <nav class="top-bar">
-            <li><a href="#">BOOKMARK</a></li>
-        </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/e5e48fac30.js"></script>
+    <link rel="stylesheet" href="./home.css" />
+        <!-- CSS only -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+        crossorigin="anonymous"
+      />
+      <!-- JavaScript Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"
+      ></script>
+  </head>
+<!-- >>>>>>>>>>>>>>body 시작>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+  <body>
+<!-- >>>>>>>>>>>>>>> 헤더 시작 >>>>>>>>>>>>>>>>>>>>>>> -->
+    <header>
+      <li><a href="#">BOOKMARK</a></li>
+      <div>
+        <button id="btn-login" type="submit">login</button>
+      </div>  
+    </header>
+<!-- <<<<<<<<<< 헤더 끝 <<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    
+    
+<!-- >>>>>>>>>>>>>>> 로고 & 타이틀 시작 >>>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="logo">
+      <h1>
+      <img src="/imgs/logo-ohgym.png" width="75" height="70">
+      <a href=home_1.html>OH GYM</a>
+      </h1>
     </div>
-    <h1 class="">OhGYM</h1>
-    <div class="category">
-        <nav class="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">센터소개</a></li>
-            <li><a href="#">트레이너소개</a></li>
-            <li><a href="#">프로그램안내</a></li>
-            <li><a href="#">프로그램예약</a></li>
-            <li><a href="#">커뮤니티</a></li>
-        </nav>
-    </div>
+<!-- <<<<<<<<<< 로고 & 타이틀 끝 <<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-    <!-- 각 카테고리의 콘텐츠를 담아야합니다. 여기에 코딩해주세요 !!!!! -->
-    <div class="contents-box">
-        kglfgjkldgkjlsfkj
-    </div>
-    <!-- 각 카테고리의 콘텐츠를 담아야합니다. 여기에 코딩해주세요 !!!!! -->
+<!-- >>>>>>>>>>>>>>> bootstrap nav 시작 >>>>>>>>>>>>>>>>>>>>>>> -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+      <div class="container">
+          <div class="collapse navbar-collapse" id="navcol-1">
+              <ul class="nav navbar-nav w-100 justify-content-between">
+                  <!-- dropDown li 시작 -->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="./home_1.html">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">센터 소개</a>
+                      <div class="dropdown-menu" role="menu">
+                          <a class="dropdown-item" role="presentation" href="#">시설 소개</a>
+                          <a class="dropdown-item" role="presentation" href="#">기구 소개</a>
+                          <a class="dropdown-item" role="presentation" href="#">오시는 길</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">트레이너 소개</a>
+                      <div class="dropdown-menu" role="menu">
+                          <a class="dropdown-item" role="presentation" href="#">First Item</a>
+                          <a class="dropdown-item" role="presentation" href="#">Second Item</a>
+                          <a class="dropdown-item" role="presentation" href="#">Third Item</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">프로그램 안내</a>
+                      <div class="dropdown-menu" role="menu">
+                          <a class="dropdown-item" role="presentation" href="#">P.T</a>
+                          <a class="dropdown-item" role="presentation" href="#">스피닝</a>
+                          <a class="dropdown-item" role="presentation" href="#">필라테스</a>
+                          <a class="dropdown-item" role="presentation" href="#">스크린 골프</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">프로그램 예약</a>
+                      <div class="dropdown-menu" role="menu">
+                          <a class="dropdown-item" role="presentation" href="#">First Item</a>
+                          <a class="dropdown-item" role="presentation" href="#">Second Item</a>
+                          <a class="dropdown-item" role="presentation" href="#">Third Item</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="dropdown-toggle nav-link" data-toggle="dropdown" data-display="static" aria-expanded="false" href="#">커뮤니티</a>
+                      <div class="dropdown-menu" role="menu">
+                          <a class="dropdown-item" role="presentation" href="#">공지사항</a>
+                          <a class="dropdown-item" role="presentation" href="#">자주하는 질문</a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+<!-- <<<<<<<<<< bootstrap nav 끝 <<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-    <footer class="info">
-        <nav>
-            <div class="link">
-                <p>GitHub
-                    <a href="#">@slalom0914</a>
-                    <a href="#">@yihyunkong</a>
-                    <a href="#">@congs00n</a>
-                    <a href="#">@qcmcm2</a>
-                    <a href="#">@dongcarry96</a>
-                </p>
-            </div>
-            <div class="addr">
-                <p>
-                    사업자등록번호: 128-23-45267 | 대표 : 김승수
-                | 개인정보보호책임자: 김승수 | 이메일 : dev_js@gmail.com
-                | 강남지원 1관 : 서울특별시 강남구 테헤란로14길 6 남도빌딩 2F
-                </p>
-            </div>
-        </nav>
-    </footer>
-</body>
+<!-- 콘텐츠 시작 -->
+  <!-- 콘텐츠 > 사진 & 명언 -->
+    <div class="center">
+      <div class="back">
+        <div>
+          <h3>A sound mind in a sound body</h3>
+        </div>
+        <div>
+          <h5>-John Locke-</h5>
+        </div>
+      </div>
+    </div>
+    <hr>
+  <!-- 콘텐츠 > 사진 & 명언 끝 -->
+
+  <!-- 콘텐츠 > 공지사항 미리보기 & 지도 시작 -->
+  <div class="three_box">
+      <!-- 공지사항 미리보기 시작 -->
+      <div class="col-sm-12 col-md-6">
+        <h2>공지사항</h2>
+        <p class="text-justify"> ‼️ 공지사항 최신 글을 불러옵니다. </p>
+      </div>
+      <!-- 공지사항 미리보기 끝 -->
+
+      <!-- 지도 api 시작  -->
+      <div class="box2">
+        <h2>카카오톡 지도 api</h2>
+        <div id="map" style="width: 420px; height: 230px"></div>
+        <script src="http://dapi.kakao.com/v2/maps/sdk.js?appkey=21af3de848f44d872f10ddf66ca283da"></script>
+      </div>
+
+          <script>
+            const mapContainer = document.getElementById("map"), // 지도를 표시할 div
+              mapOption = {
+                center: new kakao.maps.LatLng(37.4989810000002, 127.02872089999939), // 지도의 중심좌표
+                level: 3, // 지도의 확대 레벨
+                mapTypeId: kakao.maps.MapTypeId.ROADMAP, // 지도종류
+              };
+            // 지도를 생성한다
+            const map = new kakao.maps.Map(mapContainer, mapOption);
+            // 지도에 마커를 생성하고 표시한다
+            // 지도 타입 변경 컨트롤을 생성한다
+            const mapTypeControl = new kakao.maps.MapTypeControl();
+            // 지도의 상단 우측에 지도 타입 변경 컨트롤을 추가한다
+            map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);	
+            // 지도에 확대 축소 컨트롤을 생성한다
+            const zoomControl = new kakao.maps.ZoomControl();
+            // 지도의 우측에 확대 축소 컨트롤을 추가한다
+            map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+              const marker = new kakao.maps.Marker({
+                position: new kakao.maps.LatLng(37.4989810000002, 127.02872089999939), // 마커의 좌표
+                map: map, // 마커를 표시할 지도 객체
+              });
+          </script>
+  </div>
+  <!-- 콘텐츠 > 공지사항 미리보기 & 지도 api 끝  -->
+    
+<!-- >>>>>>>>>>>>>>>>>>>>> bootStrap footer 시작! >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+  <footer>
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+      <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by Scanfcode.
+      </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+      <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>   
+      </ul>
+      </div>
+    </div>
+  </footer>
+<!-- <<<<<<<<<<<<<<<<<<< bootStrap footer 끝! <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  </body>
 </html>

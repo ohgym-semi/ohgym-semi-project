@@ -1,7 +1,8 @@
-/* * {
-    border: 1px solid rgb(100, 76, 98);
-} */
-
+* {
+  border: 1px solid rgb(32, 22, 123);
+  font-family: 돋움체;
+}
+/* 상단 시작 */
 .header {
   padding-top: 5px;
   font-size: 20px;
@@ -18,12 +19,6 @@ nav.top-bar {
   padding-left: 20px;
 }
 
-h1 {
-  margin: 20px;
-  text-align: center;
-  font-size: 90px;
-}
-
 .category {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -36,6 +31,11 @@ h1 {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.nav-start {
+  display: flex;
+  justify-content: center;
 }
 
 .menu li {
@@ -77,7 +77,7 @@ div.contents {
 
 .bottom-box > .map {
   width: 350px;
-  height: 350px; 
+  height: 350px;
   margin-right: 18px;
   border-radius: 20px 20px 20px 20px;
   background-color: rgb(243, 243, 243);
@@ -92,214 +92,112 @@ div.contents {
 
 header {
   height: 40px;
-  background-color: black;
   font-size: 20px;
-  text-align: center;
-  color: white;
-  border-radius: 20px 20px 0 0;
+  padding: 5px 5px 80px 5px;
 }
 
+header li {
+  float: left;
+  list-style: none;
+}
+
+header a {
+  color: rgb(208, 208, 208);
+}
+
+header div {
+  float: right;
+}
+
+#btn-login {
+  background-color: white;
+  border: none;
+  color: darkgray;
+}
+
+/* >>>>>>>>> 로고시작 */
+.logo {
+  background-color: rgb(255, 255, 255);
+}
+.logo h1 {
+  margin: 20px;
+  text-align: left;
+  font-size: 80px;
+  font-style: italic;
+  background: url("/imgs/gym-back.jpeg");
+}
+.logo a {
+  text-decoration: none; color: hwb(0 100% 0%);
+}
+.logo a:visited, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+.logo img {
+  display: inline-block;
+  margin-bottom: 13px;
+}
+/* 로고 끝 <<<<<<<<<<< */
+
+
+/* 상단 끝 */
+
+/* 하단 시작 */
 footer.info {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  /* margin-top: 20px; */
+  margin-top: 20px;
   background-color: black;
   color: white;
   text-align: center;
-  font-size: larger;
 }
+/* 하단 끝 */
 
-div.contents-box {
-  /* 여기에 각 카테고리별로 css 적용하지면 됩니다.*/
-  padding:20px 50px 150px 50px;
-  text-align: center;
-  
-}
-
-.mini-nav{
-  margin-top: 50px;
-  margin-bottom: 140px;
-  padding:20px 0px 20px 10px;
+/* contents-box 시작 */
+.center {
+  width: 100%;
+  height: 750px;
   display: flex;
-  width: 100%;
-  float: left;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
+  background: url("./back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
-.mini-nav label{
-  font-size: smaller;
-  color: grey;
-  width:130px;
-  /* height:40px; */
-  border: solid 1px rgb(170, 170, 170);
-  border-radius: 10%;
-}
-
-#btn-input {
-  width: fit-content;
-  height: fit-content;
-}
-
-#btn-write{
-background-color: rgb(109, 109, 242);
-color: white;
-font-size:large;
-border-radius: 5%;
-}
-
-.table{
-  border-collapse: collapse;
-  border-top: 3px solid #168;
-}
-
-.table th {
-  color: #168;
-  background: #f0f6f9;
+.back {
+  margin-top: auto;
+  margin-bottom: auto;
   text-align: center;
+  color: lightgray;
 }
 
-.table th, .table td {
-  padding: 10px;
-  border: 1px solid #ddd;
+.back h3 {
+  font-size: 50px;
+  font-weight: bold;
 }
 
-.table th:first-child, .table td:first-child {
-  border-left: 0;
+.back h5 {
+  font-size: 35px;
+  font-weight: bold;
 }
 
-.table th:last-child, .table td:last-child {
-  border-right: 0;
+.three_box {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+  /* margin-top: auto;
+  margin-bottom: auto; */
 }
 
-.table tr td:first-child{
+.box1 {
+  width: 420px;
+  height: 230px;
   text-align: center;
+  margin-top: 6%;
 }
 
-.table caption{
-  caption-side: bottom; display: none;
-}
-
-.right {
-  float: right;
-}
-
-/* .search-form{
-  margin-bottom: 10px;
-  float: right;
-} */
-
-.search-form label{
-  width: 100px;
-  height: 30px;
-  background-color: gray;
-  font-size: large;
-  color: white;
-}
-
-.d-write{
-  margin-bottom: 10px;
-  float: left;
-}
-
-.notice-list{
-  text-align: center;
-}
-
-.pager{
-  display: inline-block;
-}
-
-/* consult.html 스타일 시작! */
-#intro-section div.outline{
-  /* 상 우 하 좌 */
-  padding:45px 240px 30px 180px;
-  width: 100%;
-  float: left;
-}
-
-#intro-section p{
-  margin:0px 400px 0px 200px;
-  text-align: left;
-  font-style: oblique;
-  color: gray;
-  font-size: larger;
-}
-
-#intro-section hr{
-  border: dotted 3px;
-  color: rgb(45, 45, 45);
-}
-
-/* .contents-box#q-a {
-  background-color: pink;
-} */
-
-#kakao-talk-channel-add-button{
-  text-align: right;
-}
-
-#q-a {
-  padding-bottom: 500px;
-}
-
-#q-a img{
-  /* padding: 10px 30px 10px 30px; */
-  /* display:inline-flex; */
-  display:block;
-  margin:0px auto;
-  width: 800px;
-  height: 400px;
-  background-color: pink;
-}
-
-#input-title{
-  width:900px;
-  height:40px;
-  margin-top: 80px;
-  margin-bottom: 5px;
-}
-
-#input-contents{
-  width:900px;
-  height:450px;
-  margin-bottom: 30px;
-}
-
-#btn-submit{
-  background-color: rgb(255, 183, 0);
-  width: 30;
-  height: 27;
-  color:white;
-  font-size:x-large;
-  border-radius: 5%;
-  margin: 5px 10px 10px 5px;
-}
-
-#btn-cancel{
-  background-color: rgb(255, 183, 0);
-  width: 30;
-  height: 27;
-  color:white;
-  font-size:x-large;
-  border-radius: 5%;
-  margin: 5px 10px 10px 5px;
-}
-
-ul{
-  text-align: left;
-}
-
-ul h2{
-  color: darkgrey;
-  display: inline-block;
-}
-
-main{
-  text-align: center;
-}
-
-main.input-form {
-  
-  display: inline-block;
-  width:max-content;
+footer {
+  background-color: rgb(250, 250, 250);
+  padding: 10px 10px 10px 10px;
 }
 
