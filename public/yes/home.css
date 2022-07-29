@@ -170,7 +170,7 @@ footer.info {
 .container1 {
   display: flex;
   justify-content: center;
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .card-body {
