@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red
-}
+} */
 
  /* 헤더 style */
 header {
@@ -23,7 +23,6 @@ header a {
 header div {
     float: right;
 }
-
 
 #btn-login {
     /* background-color: white; */
@@ -62,6 +61,11 @@ header div {
 .logo img {
     display: inline-block;
     margin-bottom: 13px;
+}
+
+.contents {
+    padding: 50px 100px 50px 100px;
+
 }
 
 /****************************** footer CSS 시작 *******************************/
