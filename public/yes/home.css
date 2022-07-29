@@ -166,4 +166,21 @@ footer.info {
   text-align: center;
   margin-top: 6%;
 }
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.card-body {
+    display: flex;
+  justify-content: center;
+  /* background-color: gray; */
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+}
 /* contents-box 끝 */
